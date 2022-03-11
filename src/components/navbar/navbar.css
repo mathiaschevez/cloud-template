@@ -1,0 +1,146 @@
+.cloud__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-bg);
+  padding: 2rem 6rem;
+}
+
+.cloud__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cloud__navbar-links_logo {
+  margin-right: 2rem;
+  display: flex;
+}
+
+.cloud__navbar-links_logo img {
+  width: 27px;
+  height: 37px;
+}
+
+.cloud__navbar-links_logo h1 {
+  margin-left: 9px;
+  color: white;
+}
+
+.cloud__navbar-links_container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.cloud__navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cloud__navbar-links_container p,
+.cloud__navbar-sign p,
+.cloud__navbar-menu_container p
+{
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.cloud__navbar-sign button,
+.cloud__navbar-menu_container button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  background: #5567ff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.cloud__navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.cloud__navbar-menu svg {
+  cursor: pointer;
+}
+
+.cloud__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+
+.cloud__navbar-menu_container p {
+  margin: 1rem 0;
+}
+
+.cloud__navbar-menu_container-links-sign {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .cloud__navbar-links_container {
+    display: none;
+  }
+
+  .cloud__navbar-links_logo h1 {
+    display: none;
+  }
+
+  .cloud__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cloud__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cloud__navbar {
+    padding: 2rem;
+  }
+
+  .cloud__navbar-sign {
+    display: none;
+  }
+
+  .cloud__navbar-menu_container {
+    top: 20px;
+  }
+
+  .cloud__navbar-menu_container-links-sign {
+    display: block;
+  }
+}

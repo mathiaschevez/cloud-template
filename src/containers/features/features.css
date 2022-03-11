@@ -1,0 +1,59 @@
+.cloud__features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 90px;
+}
+
+.cloud__features-shield {
+  margin-bottom: 60px;
+}
+
+.cloud__features-shield, .cloud__features-apps {
+  display: flex;
+  align-items: center;
+  width: 1172.37px;
+}
+
+.cloud__features-shield img {
+  width: 632.12px;
+  height: 533.55px;
+}
+
+.cloud__features-apps img {
+  width: 686px;
+  height: 470px;
+}
+
+.cloud__features-shield-info, .cloud__features-apps-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cloud__features-shield-info {
+  margin-left: 30px;
+}
+
+.cloud__features-apps-info {
+  margin-right: 15px;
+}
+
+.cloud__features-shield-info h1, .cloud__features-apps-info h1 {
+  width: 469px;
+  font-size: 36px;
+  line-height: 55px;
+  margin-bottom: 18px;
+}
+
+.cloud__features-shield-info p, .cloud__features-apps-info p {
+  width: 470px;
+  font-size: 16px;
+  line-height: 36px;
+  margin-bottom: 21px;
+}
+
+.cloud__features-shield-info a, .cloud__features-apps-info a {
+  color: #5567ff;
+  font-size: 15px;
+}

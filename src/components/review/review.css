@@ -1,0 +1,69 @@
+.cloud__review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 30px;
+}
+
+.cloud__review img {
+  width: 60px;
+  height: 60px;
+  margin-right: 24px;
+}
+
+.cloud__review-container p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: -0.5px;
+  font-family: var(--font-family);
+}
+
+.cloud__review-container img {
+  width: 94px;
+  height: 30.89px;
+}
+
+.cloud__review-container-user {
+  padding-top: 10px;
+}
+
+.cloud__review-container-user-name {
+  font-family: var(--font-family);
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.cloud__review-container-user-occupation {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #343d48;
+}
+
+@media screen and (max-width: 990px) {
+ .cloud__review {
+   padding: 9px 15px;
+ }
+}
+
+@media screen and (max-width: 700px) {
+  .cloud__review {
+    flex-direction: column;
+    padding: 1px 1px;
+    margin: 0 0 21px 0;
+  }
+
+  .cloud__review img {
+    margin: 0 0 3px 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cloud__review {
+    padding: 0;
+  }
+}
