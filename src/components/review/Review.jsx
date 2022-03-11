@@ -11,7 +11,6 @@ const Review = ({ userImg, logo, review, name, occupation}) => {
         <div className='cloud__review-container-user'>
           <p className='cloud__review-container-user-name'>{name}</p>
           <p className='cloud__review-container-user-occupation'>{occupation}</p>
-          <p>superman</p>
         </div>
       </div>
     </div>
