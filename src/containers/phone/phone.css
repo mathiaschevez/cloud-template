@@ -1,5 +1,5 @@
 .cloud__phone {
-  margin: 172px 15% 60px 15%;
+  margin: 120px 15% 60px 15%;
 }
 
 .cloud__phone-container {
@@ -42,5 +42,57 @@
 .cloud__phone-container-info-links img {
   width: 145px;
 }
+
+@media screen and (max-width: 1200px) {
+  .cloud__phone {
+    margin: 75px 15% 60px 15%;
+  }
+
+  .cloud__phone-container-image {
+    width: 100%;
+  }
+
+  .cloud__phone-container-info {
+    padding: 33px 33px;
+  }
+
+  .cloud__phone-container-info h1 {
+    font-size: 24px;
+    line-height: 39px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .cloud__phone-container-info {
+    padding: 3px 3px;
+  }
+
+  .cloud__phone-container-info h1 {
+    font-size: 21px;
+    line-height: 33px;
+  }
+
+  .cloud__phone-container-info p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .cloud__phone-container-info-links img {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cloud__phone-container {
+    grid-template-columns: 1fr;
+  }
+
+  .cloud__phone-container-image {
+    margin-bottom: 33px;
+  }
+}
+
+
 
 

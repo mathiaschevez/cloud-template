@@ -45,6 +45,15 @@
   .cloud__beyond-title {
     margin-bottom: 30px;
   }
+
+  .cloud__beyond-title h1 {
+    font-size: 27px;
+  }
+
+  .cloud__beyond-title h3 {
+    font-size: 18px;
+  }
+
   .cloud__beyond-grid {
     grid-template-columns: 1fr;
   }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Reviews, Features, Dashboard, Beyond, Phone } from './containers';
+import { Header, Reviews, Features, Dashboard, Beyond, Phone, Footer } from './containers';
 import { Navbar } from './components';
 import "./App.css";
 
@@ -13,6 +13,7 @@ const App = () => {
       <Dashboard />
       <Beyond />
       <Phone />
+      <Footer />
     </div>
   );
 };

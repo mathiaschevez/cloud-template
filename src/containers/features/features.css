@@ -103,4 +103,13 @@
     width: 90%;
     height: 90%;
   }
+
+  .cloud__features-shield-info h1, .cloud__features-apps-info h1 {
+    font-size: 27px;
+  }
+
+  .cloud__features-shield-info p, .cloud__features-apps-info p {
+    font-size: 16px;
+    line-height: 30px;
+  }
  }

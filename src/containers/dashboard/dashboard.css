@@ -45,6 +45,14 @@
     padding-top: 36px;
   }
 
+  .cloud__dashboard-title h1 {
+    font-size: 24px;
+  }
+
+  .cloud__dashboard-title p {
+    font-size: 14px;
+  }
+
   .cloud__dashboard-ultimates {
     flex-direction: column;
     gap: 9px;
