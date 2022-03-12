@@ -86,4 +86,9 @@
     flex-direction: column;
     gap: 12px;
   }
+
+  .cloud__footer-bottom-logo {
+    width: 20px;
+    height: 20px;
+  }
 }
