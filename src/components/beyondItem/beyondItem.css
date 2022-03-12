@@ -1,0 +1,58 @@
+.cloud__beyondItem {
+  display: flex;
+  flex-direction: row;
+  gap:21px;
+}
+
+.cloud__beyondItem-image {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cloud__beyondItem-image img {
+  width: 69px;
+  height: 69px;
+}
+
+.cloud__beyondItem-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.cloud__beyondItem-info button {
+  border: none;
+  background-color: transparent;
+  color: #5567FF;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+  .cloud__beyondItem {
+    gap: 12px;
+  }
+
+  .cloud__beyondItem-info h3 {
+    font-size: 18px;
+  }
+
+  .cloud__beyondItem-image img {
+    width: 54px;
+    height: 54px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cloud__beyondItem {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cloud__beyondItem-info {
+    align-items: center;
+    text-align: center;
+  }
+}

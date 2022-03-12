@@ -1,0 +1,51 @@
+.cloud__beyond {
+  margin: 60px 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cloud__beyond-title {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 75px;
+}
+
+.cloud__beyond-title h3 {
+  color: rgb(85, 85, 85);
+}
+
+.cloud__beyond-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 90px;
+}
+
+@media screen and (max-width: 1200px) {
+  .cloud__beyond-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+  }
+
+  .cloud__beyond-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cloud__beyond {
+    margin-top: 30px;
+  }
+
+  .cloud__beyond-title {
+    margin-bottom: 30px;
+  }
+  .cloud__beyond-grid {
+    grid-template-columns: 1fr;
+  }
+}

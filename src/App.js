@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Reviews, Features, Dashboard } from './containers';
+import { Header, Reviews, Features, Dashboard, Beyond, Phone } from './containers';
 import { Navbar } from './components';
 import "./App.css";
 
@@ -11,6 +11,8 @@ const App = () => {
       <Reviews />
       <Features />
       <Dashboard />
+      <Beyond />
+      <Phone />
     </div>
   );
 };

@@ -1,0 +1,46 @@
+.cloud__phone {
+  margin: 172px 15% 60px 15%;
+}
+
+.cloud__phone-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cloud__phone-container-image {
+  display: flex;
+  justify-content: center;
+  width: 81%;
+}
+
+.cloud__phone-container-image img {
+  width: 50%;
+}
+
+.cloud__phone-container-info {
+  display: flex;
+  flex-direction: column;
+  padding: 33px 90px 33px 33px;
+}
+
+.cloud__phone-container-info h1 {
+  line-height: 60px;
+}
+
+.cloud__phone-container-info p {
+  margin: 18px auto 18px auto;
+  line-height: 36px;
+}
+
+.cloud__phone-container-info-links {
+  display: flex;
+  gap: 9px;
+}
+
+.cloud__phone-container-info-links img {
+  width: 145px;
+}
+
+
