@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Reviews, Features } from './containers';
+import { Header, Reviews, Features, Dashboard } from './containers';
 import { Navbar } from './components';
 import "./App.css";
 
@@ -8,10 +8,9 @@ const App = () => {
     <div className='App'>
       <Navbar />
       <Header />
-      <div className='cloud__main-body'>
-        <Reviews />
-        <Features />
-      </div>
+      <Reviews />
+      <Features />
+      <Dashboard />
     </div>
   );
 };

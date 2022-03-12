@@ -1,0 +1,29 @@
+.cloud__dashboard { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f5ff;
+  padding: 68px 15%;
+}
+
+.cloud__dashboard-title {
+  width: 80%;
+}
+
+.cloud__dashboard-title h1 {
+  text-align: center;
+}
+
+.cloud__dashboard-title p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #02073E;
+}
+
+.cloud__dashboard-ultimates {
+  display: flex;
+  flex-direction: row;
+  margin: 36px 0;
+}

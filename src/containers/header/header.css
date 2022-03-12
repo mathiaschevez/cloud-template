@@ -58,11 +58,6 @@
   border-radius: 3px;
 }
 
-.cloud__header-content__people img {
-  width: 181.79px;
-  height: 38px;
-}
-
 .cloud__header-content__people p {
   margin: 0 0 0 1rem;
   font-family: var(--font-family);
@@ -74,10 +69,11 @@
 }
 
 .cloud__header-image {
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 15%;
+  margin: auto;
 }
 
 .cloud__header-image img {
@@ -111,8 +107,8 @@
       flex-direction: column;
   }
 
-  .cloud__header-content__people p {
-      margin: 0;
+  .cloud__header-image {
+    width: 100%;
   }
 
   .cloud__header-content__buttons input,

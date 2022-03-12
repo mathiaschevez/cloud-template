@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 90px;
+  margin: 0 15%;
 }
 
 .cloud__features-shield {
@@ -12,17 +13,12 @@
 .cloud__features-shield, .cloud__features-apps {
   display: flex;
   align-items: center;
-  width: 1172.37px;
+  width: 100%;
 }
 
-.cloud__features-shield img {
-  width: 632.12px;
-  height: 533.55px;
-}
-
-.cloud__features-apps img {
-  width: 686px;
-  height: 470px;
+.cloud__features-shield img, .cloud__features-apps img{
+  width: 50%;
+  height: 50%;
 }
 
 .cloud__features-shield-info, .cloud__features-apps-info {
@@ -32,22 +28,24 @@
 }
 
 .cloud__features-shield-info {
+  width: 50%;
   margin-left: 30px;
 }
 
 .cloud__features-apps-info {
+  width: 50%;
   margin-right: 15px;
 }
 
 .cloud__features-shield-info h1, .cloud__features-apps-info h1 {
-  width: 469px;
+  /* width: 469px; */
   font-size: 36px;
   line-height: 55px;
   margin-bottom: 18px;
 }
 
 .cloud__features-shield-info p, .cloud__features-apps-info p {
-  width: 470px;
+  /* width: 470px; */
   font-size: 16px;
   line-height: 36px;
   margin-bottom: 21px;
@@ -57,3 +55,52 @@
   color: #5567ff;
   font-size: 15px;
 }
+
+@media screen and (max-width: 1200px) {
+  .cloud__features-shield, .cloud__features-apps {
+    /* width: 930px; */
+    width: 100%;
+  }
+
+  .cloud__features-shield-info, .cloud__features-apps-info {
+    width: 100%;
+  }
+
+  .cloud__features-shield-info h1, .cloud__features-apps-info h1 {
+    width: 100%;
+    font-size: 33px;
+    line-height: 39px;
+    margin-bottom: 18px;
+  }
+ }
+ 
+ @media screen and (max-width: 800px) {
+
+  .cloud__features-shield, .cloud__features-apps {
+    flex-direction: column;
+  }
+
+  .cloud__features-shield img, .cloud__features-apps img{
+    width: 80%;
+    height: 80%;
+  }
+
+  .cloud__features-shield-info  {
+    margin: 0;
+  }
+
+  .cloud__features-apps-info  {
+    margin: 0;
+  }
+
+  .cloud__features-shield-info p, .cloud__features-apps-info p{
+    font-size: 18px;
+  }
+ }
+ 
+ @media screen and (max-width: 550px) {
+  .cloud__features-shield img, .cloud__features-apps img{
+    width: 90%;
+    height: 90%;
+  }
+ }

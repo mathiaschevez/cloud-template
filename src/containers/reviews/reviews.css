@@ -1,6 +1,7 @@
 .cloud__reviews {
   padding: 120px 0;
   display: flex;
+  margin: 0 15%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -9,15 +10,16 @@
  }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .cloud__reviews {
     padding: 45px 0;
+    align-items: center;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .gpt3__blog-heading h1 {
-      font-size: 34px;
-      line-height: 42px;
+  .cloud__reviews {
+    padding: 21px 0;
+    align-items: center;
   }
 }
